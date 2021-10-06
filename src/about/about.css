@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Kumbh Sans", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.about-bg {
+  background-color: black;
+}
+
+.about-me-text {
+  padding: 3px;
+}
+
+.service {
+  color: #000;
+  margin-bottom: 5px;
+}
+
+.white-font {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.section-title {
+  color: aqua;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.about-portrait {
+  align-self: center;
+  padding: 50px 50px 20px 50px;
+}
+
+.self-portrait {
+  border: dashed 2px #fff;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.service-list {
+  list-style: none;
+  text-align: left;
+  padding: 5px;
+  margin: 0;
+}
+
+@media screen and (min-width: 766px) {
+  .about-portrait {
+    /* padding: 100px 100px 20px 100px; */
+  }
+
+  .about-bg {
+    padding: 50px 100px;
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  .about-portrait {
+    /* padding: 0px 150px 20px 150px; */
+  }
+
+  .about-bg {
+    padding: 75px 200px;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .about-portrait {
+    padding: 0px 200px 20px 200px;
+  }
+
+  .about-bg {
+    padding: 75px 350px;
+  }
+
+  .about-me-text {
+    font-size: 1.3rem;
+  }
+}

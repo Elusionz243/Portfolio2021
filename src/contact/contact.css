@@ -1,0 +1,90 @@
+.contact-bg {
+  background-color: #000;
+}
+
+.form-config {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form-btn {
+  display: flex; 
+  justify-content: space-between;
+  margin: 10px 0px 0px 0px;
+}
+
+.label-font {
+  color: #fff;
+  margin: 5px 0px 3px 0px;
+}
+
+.contact-container {
+  padding: 30px 5px;
+}
+
+.contact-title {
+  color: aqua;
+  text-align: center;
+}
+
+.social-medias {
+  list-style: none;
+  padding: 0;
+  /* margin: 10px 20px; */
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-card {
+  background-color: #2a2a2a;
+  padding: 10px;
+}
+
+.socials-card {
+  background-color: #2a2a2a;
+  padding: 10px;
+}
+
+.social-list {
+  padding: 10px;
+}
+
+.socials {
+  padding: 5% 10%;
+  background-color: black;
+}
+
+@media screen and (min-width: 766px) {
+  .form-card {
+    margin: 5% 20% 0 20%;
+  }
+
+  .social-medias {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  .form-card {
+    margin: 12% 25% 2% 25%;
+  }
+
+  .form-config {
+    padding: 2% 5%;
+  }
+
+  .form-btn {
+    padding: 2% 5% 1% 5%;
+  }
+
+  .socials {
+    padding: 5% 25%;
+  }
+}
