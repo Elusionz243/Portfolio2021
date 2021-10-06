@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useHistory } from 'react-router';
 import { useForm, ValidationError } from '@formspree/react';
 
@@ -8,17 +8,9 @@ export default function Contact() {
 
   let history = useHistory();
 
-  const [isShown, setIsShown] = useState(false);
-  const [emailCopyStatus, setEmailCopyStatus] = useState('Copy to Clipboard?')
-
   const [state, handleSubmit] = useForm('mwkaylog')
   if (state.succeeded) {
     return <p>Thanks for contacting me!</p>
-  }
-
-  const copyToClipboard = () => {
-    navigator.clipboard.writeText('jacobhickman243@gmail.com');
-    setEmailCopyStatus('Email copied to clipboard!');
   }
 
   return (

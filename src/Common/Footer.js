@@ -5,10 +5,10 @@ export default function Footer() {
     <div className='socials'>
       <ul className='social-medias socials-card'>
         <li className='social-media'>
-          <a href='https://www.linkedin.com/in/jacobhickman12/' target='_blank'>LinkedIn</a>
+          <a href='https://www.linkedin.com/in/jacobhickman12/' target='_blank' rel='noreferrer'>LinkedIn</a>
         </li>
         <li className='social-media'>
-          <a href='https://www.github.com/Elusionz243/' target='_blank'>Github</a>
+          <a href='https://www.github.com/Elusionz243/' target='_blank' rel='noreferrer'>Github</a>
         </li>
         <li className='social-media'>
           <button className='btn btn-link'
