@@ -33,10 +33,19 @@
 }
 
 .portrait {
-  border: solid 1px white;
   border-radius: 50%;
   overflow: hidden;
-  margin: 0 15px 0 0;
+  width: 97%;
+  height: 97%;
+}
+
+.portrait-border {
+  background: linear-gradient(#e66465, #9198e5);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 30px;
 }
 
 @media screen and (max-width: 1023px) {
@@ -44,18 +53,15 @@
     padding: 100px 140px;
   }
 
-  .portrait {
-    border: solid 1px white;
-    border-radius: 50%;
-    overflow: hidden;
-    margin: 10px 30px 10px 30px;
+  .portrait-border {
+    margin: 0 15px 0 0;
   }
 
   .hp-card {
     display: block;
   }
-}
 
+}
 @media screen and (max-width: 766px) {
   .hp-bg {
     padding: 50px 50px;
@@ -65,8 +71,7 @@
     display: block;
   }
 
-  .portrait {
-    /* margin-bottom: 10px; */
+  .portrait-border {
     margin: 0px 0px 10px 0px;
   }
 
@@ -74,3 +79,4 @@
     font-size: 1.2rem;
   }
 }
+
