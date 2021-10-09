@@ -20,18 +20,19 @@ export default function Projects() {
               <h5><strong>Local Library</strong></h5>
             </div>
             <div className='card-img project-card-img'>
-              <img src={localLibraryPic} alt='Local Library Image' className='img-thumbnail' />
+              <img src={localLibraryPic} alt='Local Library' className='img-thumbnail' />
             </div>
             <div className='card-body project-card-body'>
-              <p>The local library, is a project that I took on from <a href='https://www.thinkful.com/' target='_blank' style={{textDecoration: 'none'}}>Thinkful</a>.
+              <p>The local library, is a project that I took on from 
+                <a href='https://www.thinkful.com/' target='_blank' style={{textDecoration: 'none'}} rel='noreferrer'>Thinkful</a>.
                 This project allows administrators to look and manage a list of library accounts, shows a list of the
                 most popular authors and books, and see a list of books that are borrowed or at the library.</p>
             </div>
             <div className='card-footer project-card-footer'>
               <a href='https://elusionz243.github.io/project-local-library/' className='btn btn-primary'
-                target='_blank'>Live Preview</a>
+                target='_blank' rel='noreferrer'>Live Preview</a>
               <a href='https://github.com/Elusionz243/project-local-library/tree/master' className='btn btn-primary'
-                target='_blank'>Source Code</a>
+                target='_blank' rel='noreferrer'>Source Code</a>
             </div>
           </li>
           <li className='card project-card'>
@@ -39,7 +40,7 @@ export default function Projects() {
               <h5><strong>Decoder Ring</strong></h5>
             </div>
             <div className='card-img'>
-              <img src={decoderRingPic} alt='Decoder Ring Image' className='img-thumbnail' />
+              <img src={decoderRingPic} alt='Decoder Ring' className='img-thumbnail' />
             </div>
             <div className='card-body project-card-body'>
               <p>The Decoder Ring, was a project I took on to practice using algorythms to encode and decode messages.
@@ -48,8 +49,10 @@ export default function Projects() {
             </div>
             <div className='card-footer project-card-footer'>
               <a href='https://elusionz243.github.io/Project_Decoder_Ring_1/' className='btn btn-primary'
-                target='_blank'>Live Preview</a>
-              <a href='' className='btn btn-primary' target='_blank'>Source Code</a>
+                target='_blank' rel='noreferrer'>Live Preview</a>
+              <a 
+              href='https://github.com/Elusionz243/Project_Decoder_Ring_1' className='btn btn-primary' 
+              target='_blank' rel='noreferrer'>Source Code</a>
             </div>
           </li>
           <li className='card project-card'>
@@ -57,7 +60,7 @@ export default function Projects() {
               <h5><strong>Pomodoro Timer</strong></h5>
             </div>
             <div className='card-img'>
-              <img src={pomodoroPic} alt='Pomodoro Timer Image' className='img-thumbnail' />
+              <img src={pomodoroPic} alt='Pomodoro Timer' className='img-thumbnail' />
             </div>
             <div className='card-body project-card-body'>
               <p>The Pomodoro Timer, is a timer to create sessions to focus on a task with break intervals.
@@ -67,9 +70,9 @@ export default function Projects() {
                 your task.</p>
             </div>
             <div className='card-footer project-card-footer'>
-              <a href='https://pomodoro-timer-ashy.vercel.app/' className='btn btn-primary' target='_blank'>Live
+              <a href='https://pomodoro-timer-ashy.vercel.app/' className='btn btn-primary' target='_blank' rel='noreferrer'>Live
                 Preview</a>
-              <a href='https://github.com/Elusionz243/Pomodoro-Timer' className='btn btn-primary' target='_blank'>Source
+              <a href='https://github.com/Elusionz243/Pomodoro-Timer' className='btn btn-primary' target='_blank' rel='noreferrer'>Source
                 Code</a>
             </div>
           </li>

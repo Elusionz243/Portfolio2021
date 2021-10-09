@@ -46,6 +46,22 @@
   justify-content: center;
   align-items: center;
   margin: 10px 30px;
+  position: relative;
+  /* animation: rotate 4s linear infinite; */
+}
+
+.portrait-border::before {
+  position: absolute;
+}
+
+.portrait-border::after {
+  position: absolute;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(1turn);
+  }
 }
 
 @media screen and (max-width: 1023px) {
