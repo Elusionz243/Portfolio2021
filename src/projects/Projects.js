@@ -89,8 +89,8 @@ export default function Projects() {
               </p>
             </div>
             <div className='card-footer project-card-footer'>
-              <a href='#projects' className='btn btn-danger'>TBD</a>
-              <a href='#projects' className='btn btn-danger'>TBD</a>
+              <a href='https://www.google.com' className='btn btn-danger disabled' aria-disabled>TBD</a>
+              <a href='https://www.google.com' className='btn btn-danger disabled' aria-disabled>TBD</a>
             </div>
           </li>
         </ul>
