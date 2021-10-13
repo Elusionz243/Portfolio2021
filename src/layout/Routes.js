@@ -9,6 +9,7 @@ import Contact from '../contact/Contact';
 import Notfound from '../errors/Notfound';
 import HomePage from '../home/HomePage';
 import Projects from '../projects/Projects';
+import ProjectsCarousel from '../projects/ProjectsCarousel';
 
 export default function Routes() {
   return (
@@ -26,6 +27,9 @@ export default function Routes() {
         </Route>
         <Route path='/contact'>
           <Contact />
+        </Route>
+        <Route path='/test'>
+          <ProjectsCarousel />
         </Route>
         <Route>
           <Notfound />

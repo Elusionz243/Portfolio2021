@@ -16,9 +16,9 @@ export default function About() {
         <article className='white-font'>
           <div className='about-me-text'>
             <p>I've been passionate about the web since I was young.
-              Growing up, I would search the web for all types of things, from Rubik's
-              Cube tutorials, video game walkthroughs, and much more. I've been
-              living on the web for most of my life, and as time went by, the web inspired me to start programming.
+              Growing up I would scour the web to learn about solving Rubik’s cubes, puzzles in video games,
+              and much more.
+              I've been living on the web for most of my life, and as time went by, the web inspired me to start programming.
             </p>
             <p>
               I found my passion for programming at the age of twelve, when I started learning Java.
@@ -32,12 +32,12 @@ export default function About() {
             <p>Coding hasn't always been my passion though. In fact, I have learned many
               different skills that have nothing
               to do with coding. Such as skateboarding, origami, speed cubing, guitar,
-              and piano. 
+              and piano.
               I achieved the rank of Eagle Scout in the <a href='https://www.scouting.org/' style={{ textDecoration: 'none', color: 'gold' }}>Boy
-              Scounts of America</a> in 2016.
+                Scounts of America</a> in 2016.
               I've always enjoyed learning new things, and will never stop.</p>
           </div>
-          <h5> Here's a list of services I can provide</h5>
+          <h5> Here's a list of services I can provide:</h5>
           <div className='services'>
             <ul className='service-list'>
               <li className='card service'>Website Development with React, HTML, CSS, and Javascript</li>

@@ -24,7 +24,7 @@ export default function Projects() {
             </div>
             <div className='card-body project-card-body'>
               <p>The local library, is a project that I took on from 
-                <a href='https://www.thinkful.com/' target='_blank' style={{textDecoration: 'none'}} rel='noreferrer'>Thinkful</a>.
+                <a href='https://www.thinkful.com/' target='_blank' style={{textDecoration: 'none'}} rel='noreferrer'> Thinkful</a>.
                 This project allows administrators to look and manage a list of library accounts, shows a list of the
                 most popular authors and books, and see a list of books that are borrowed or at the library.</p>
             </div>
@@ -43,7 +43,7 @@ export default function Projects() {
               <img src={decoderRingPic} alt='Decoder Ring' className='img-thumbnail' />
             </div>
             <div className='card-body project-card-body'>
-              <p>The Decoder Ring, was a project I took on to practice using algorythms to encode and decode messages.
+              <p>The Decoder Ring, was a project I took on to practice using algorithms to encode and decode messages.
                 This was a really fun project, and took me a while to complete. The live view allows you to encode and
                 decode you're own messages!</p>
             </div>
