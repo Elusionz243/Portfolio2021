@@ -6,6 +6,11 @@
   scroll-behavior: smooth;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 .navbar {
   background: #131313;
   height: 60px;
@@ -26,7 +31,7 @@
   width: 100%;
   max-width: 1300px;
   margin: 0 auto;
-  padding: 0 20px;
+  /* padding: 0 20px; */
 }
 
 #navbar__logo {
